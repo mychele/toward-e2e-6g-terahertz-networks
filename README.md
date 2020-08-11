@@ -7,7 +7,7 @@ __Please cite the paper if you plan to use the scripts in your publication.__
 ## Instructions
 The scripts are organized in three folders:
 - `matlab-channel-coverage` contains the MATLAB code that implements the channel models from [1] and [2], and generates Fig. 2a and Fig. 3 of the paper.
-- `ia_thz_paper` containts the MATLAB code to generate Fig. 2b, based on the model from [3]
+- `matlab-initial-access-latency` containts the MATLAB code to generate Fig. 2b, based on the model from [3]
 - `ns-3-thz` contains the mmWave and terahertz scripts for the ns-3 scenarios. To use them, clone the [ns-3 mmWave module](https://github.com/nyuwireless-unipd/ns3-mmwave) and place the [ns-3 TeraSim module](https://github.com/UBnano-Terasim/thz) in the `contrib` folder. The scripts can go in the `scratch` folder or can be added as examples in the thz or mmWave module folders. We also provide the [sem](https://github.com/signetlabdei/sem) scripts that can be use to automatically run the simulations and analyze the results for Fig. 4 and 5 of the paper.
 
 [1] J. M. Jornet and I. F. Akyildiz, “Channel Modeling and Capacity Analysis for Electromagnetic Wireless Nanonetworks in the Terahertz Band,” IEEE Trans. Wireless Commun., vol. 10, no. 10, pp. 3211–3221, Oct. 2011.
